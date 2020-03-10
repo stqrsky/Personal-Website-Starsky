@@ -4,130 +4,147 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   
     <title>Starsky_Website</title>
 </head>
-<body>
-    <header>
-        <h1 ID="Home">Starsky Menchate</h1>
-        <nav class="navi">
-            <a href="#kontakt">Kontakt</a>
-            <a href="#biographie">Biographie</a>
-        </nav>
-    </header>
-    <main>
-        <div class="container">
-            <header>
-                <h2><img src="foto.jpg" alt="foto"></h2>
-                <p>Hi, ich heisse ....</p>
+<body >
+    <!--------------------- Section1 Inhalt: Name/Kontakt/Bio/Foto/Skills------------------>
+    <section class="container-fluid text-center">
+                <!-- Header -->
+        <header class="row bg-dark">
+            <div class="col-md-8">
+                <h1 class="h3 text-white text-md-left p-2 rounded">
+                Starsky Menchate
+                </h1>
+            </div>
+            <div class="col-md-4">
+                <nav class="nav justify-content-center">
+                <a class="nav-link text-dark badge badge-light m-2" href="#contact"><u>Contact</u></a>
+                <a class="nav-link text-dark badge badge-light m-2" href="#cv"><u>Bio</u></a>
+                </nav>
+            </div>
+        </header>
 
-            </header>
-            <div>
-                <p>Fähigkeiten</p>
-                    <ul>
-                        <li>html</li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                <!-- foto / short info / skills -->
+        <div class="row">
+            <div class="col-md-5 p-5">
+                <img src="images/Download.png" alt="foto"></img>
+                <h6 class="pt-3">
+                    Hey, I'm Aydounooh 🙂. I am a Web-Developer participant at neuefische."
+                </h6>
+            </div>
+            <div class="col-md-7">
+                    <h3 class="h3 bg-secondary text-white rounded m-3 p-2 shadow">Skills</h3>
+                    <ul class="list-group mx-5 shadow">
+                        <li class="list-group-item">Bash/Zshell</li>
+                        <li class="list-group-item">Github</li>
+                        <li class="list-group-item">HTML</li> 
+                        <li class="list-group-item">Bootstrap</li>
+                        <li class="list-group-item">SQL</li>
                     </ul>
-                <h2>Sonstige Fähigkeite</h2>
-                    <ul>
-                        <li>fahrrad fahren</li>
-                        <li>tee trinken</li>
-                    </ul>
+                    <h3 class="h3 bg-secondary text-white rounded m-3 p-2 shadow">Expertise</h3>
+                    <ul class="list-group mx-5 shadow">
+                        <li class="list-group-item">Netzwerkgrundlagen</li>
+                        <li class="list-group-item">Netzwerktechnik</li>
+                        <li class="list-group-item">Adobe Photoshop</li>
+                        <li class="list-group-item">Adobe Premiere</li>
+                        <li class="list-group-item">Adobe AfterEffects</li>
+                    </ul>   
             </div>
-            <div ID="kontakt" class="container bg-secondary" style="width: 16rem">
-                <strong>Starsky Menchate</strong>
-                <p>Höperfeld 18a, 21033</p>
-                <a href="tel:+49157123445555">Tel.: 0157 123445555</a>
-                <a href="mailto:starsky.m@live.com">starsky.m@live.com</a>
+    </section>
+    <!--------------------- /Section1 ------------------>
+    <!---------------------  Section2 Kontaktfeld ------------------>
+    <section class="p-5 text-center shadow rounded">
+        <div class="row border border-dark bg-light">
+            <div class="col-md alert alert-light " role="alert">
+                &#9990; Tel.: <a href="tel:+49157123445555" class="alert-link">0157 123445555</a>
             </div>
-            <div class="card" style="width: 16rem">
-                <img src="images/githublogo.png" class="card-img-top" alt="github">
-                <div class="card-body">
-                  <a href="https://github.com/" class="btn btn-primary">Go to Github-page</a>
-                </div>
-            </div>
-            <div class="card" style="width: 16rem">
-                <img src="images/codepen-logo.png" class="card-img-middle" alt="codepen">
-                <div class="card-body">
-                  <a href="https://codepen.com/" class="btn btn-primary">Go to Codepen-page</a>
-                </div>
-            </div>
-            <div class="card" style="width: 16rem">
-                <img src="images/linkedinlogo.png" class="card-img-bottom" alt="linkedin">
-                <div class="card-body">
-                  <a href="https://linkedin.com/" class="btn btn-primary">Go to LinkedIn-page</a>
-                </div>
-            </div>
-            <p>More about me</p>
-            <article>
-                <p>Ich bin in Deutschland geboren, meine Eltern stammen ursprünglich von den Philippinen. Aufgrund dessen habe ich einige Jahre dort und zusätzlich in Australien die Schule besucht. 
-
-                    Meine Leidenschaft ist das Entdecken andere Länder, mein Sport und die Zeit mit Freunden zu verbringen. 
-                    
-                    In den letzten Jahren habe ich verschiedene Tätigkeiten ausgeübt und nebenher zwei Fernstudien im Multimedia Bereich abgeschlossen. Zuletzt war ich für Hennes&Mauritz im Feld des System Administrator tätig. Meine beruflichen Interessen vereint letztendlich der Job des Fachinformatiker. Daher absolviere ich zurzeit eine zwei jährigen Umschulung über die BBQ, um mir Fähig-, und Fertigkeiten anzueignen und schließlich in dem Berufsfeld beruflich durchzustarten. 
-                    
-                    Ich freue mich das einjährige Praktikum im Rahmen der Bildung bei Orange Network, mit Sitz in Hamburg-Bergedorf machen zu dürfen. 
-                    
-                    Ich bin ein sozialer Typ und finde das übersichtliche Team besitzt familiären Charakter und eine sehr angenehme Arbeitsatmosphäre. Man fühlt sich gut aufgenommen und ich bin gespannt auf die kommenden Monate. Herausforderungen warten auf mich, ich bin bereit dafür!</p>
-            </article>
-            <div classe >
-                <p><strong>Lebenslauf</strong></p>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <p><strong>Berufliche Erfahrung</strong></p>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <p><strong>Qualifikation</strong></p>
-                <ul>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <p><strong>Praktikum</strong></p>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <p><strong>Berufsausbildung</strong></p>
-                <ul>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <p><strong>Schulbildung</strong></p>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <p><strong>Sprachkenntnisse</strong></p>
-                <ul>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <p><strong>Interessen </strong></p>
+            <div class="col-md alert alert-light" role="alert">
+                &#9993; Email: <a href="mailto:starsky.m@live.com" class="alert-link">0157 123445555</a>
             </div>
         </div>
-    </main>
-    <footer>
+    </section>
+
+    <!--------------------- /Section2 ------------------>
+    <!---------------------  Section3 Github/Codepen/LinkedIn ------------------>
+    <section class="row m-2 p-3">
+        <div class="col-md">        
+            <div class="card-body text-center">
+                <img src="images/githublogo.png" class="card-img-top" alt="github">
+                <a href="https://github.com/" class="btn btn-secondary ">Go to Github-page</a>
+            </div>
+        </div>
+        <div class="col-md">
+            <div class="card-body text-center">
+                <img src="images/linkedinlogo.png" class="card-img-top" alt="codepen">
+                <a href="https://github.com/" class="btn btn-secondary">Go to Codepen-page</a>
+            </div>
+        </div>
+        <div class="col-md">
+            <div class="card-body text-center">
+                <img src="images/linkedinlogo.png" class="card-img-top" alt="linkedIn">
+                <a href="https://codepen.com/" class="btn btn-secondary">Go to LinkedInd-page</a>
+            </div>
+        </div>
+    </section>
+
+    <!--------------------- /Section3 ------------------>
+    <!---------------------  Section4 AboutMe/Lebenslauf------------------>
+    <section class="row p-3">
+        <div class="col-md m-2">
+          <h3 class="bg-dark text-white rounded text-center shadow">About Me</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In quos ea,
+            officia voluptate nemo voluptatibus aliquam ex ullam, reiciendis totam
+            architecto voluptates ipsum id exercitationem nobis minima facere
+            expedita velit.
+                <p> We develop our skills and we challenge our thinking together with my talented teammates.
+                    <br>
+                    <em>"Talent wins games, but teamwork and intelligence wins championships.Michael Jordan"                        
+                    </em>
+                </p>
+          </p>
+        </div>
+        <!-- Curriculum -->
+        <div class="col-md mt-2">
+            
+            <h3 class="bg-dark text-white rounded text-center shadow">Curriculum</h3>
+            <table style="width:100%" cellpadding="6">
+                <tr>
+                    <th>Year</th>
+                    <th>Experience</th> 
+                </tr>
+                <tr>
+                    <td>2020</td>
+                    <td>neuefische Web Developemt Bootcamp</td>
+                </tr>
+                <tr>
+                    <td>2019</td>
+                    <td>Fachinformatiker für Anwendungsentwicklung - Umschulung bei BBQ-Baumann Bildung und Qualifizierung</td>
+                </tr>
+                <tr>
+                    <td>2015-2018</td>
+                    <td>Super-User &#040; Systemadministrator &#041; H&M Hennes&Mauritz Logistik AB & Co. KG</td>
+                </tr>
+                <tr>
+                    <td>2014</td>
+                    <td>Digitizer and Data collector at Reisswolf Archiveservice GmbH </td>
+                </tr>
+            </table>
+
+        </div>
+      </section>
+
+    <!--------------------- /Section4 ------------------>
+    <!---------------------  Section5 Footer/Copyright+Name  ------------------>
+    <footer class="m-3 p-3">
         &copy; Starsky`s Website
-        <a href="#">Home</a>
+        <a href="#start"> Go to Start</a>
     </footer>
+    <!--------------------- /Section5 ------------------>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
